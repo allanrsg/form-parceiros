@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <div class="form_wrapper">
+        <div class="form_container">
+            <div class="title_container">
+                <span class="sejaparceiro">Seja parceiro </span>
+                <span class="panvel">
+                    <img class="bem" src="img/bem-p.png" alt="Bem">
+                  Panvel
+                </span>
+                <div class="beneficios">Ofereça descontos e benefícios exclusivos para seus clientes através da parceria com a Panvel, afinal bons negócios começam com bons parceiros.</div>
+            </div>
+
+            <div class="item-container">
+                <div class="item-conteudo">
+                    <span><img class="item-icon" src="img/favoritado-g.png" alt="Favroritado"></span>
+                    <div>
+                        <span class="item-title">Facilidades únicas</span>
+                        <div class="item-text">Oferecer descontos e benefícios exclusivos aos clientes da Panvel.</div>
+                    </div>
+                </div>
+                <div class="item-conteudo">
+                    <span><img class="item-icon" src="img/lojas-g.png" alt="Lojas"></span>
+                    <div>
+                        <span class="item-title">Mais de 400 Lojas</span>
+                        <div class="item-text">Ampliar a proposta de valor do seu produto/serviço com a Panvel.</div>
+                    </div>
+                </div>
+                <div class="item-conteudo">
+                    <span><img class="item-icon" src="img/parceria.png" alt="Parceria"></span>
+                    <div>
+                        <span class="item-title">Parceria de sucesso</span>
+                        <div class="item-text">Gerar experiências exclusivas para os clientes.</div>
+                    </div>
+                </div>
+                <div class="item-conteudo">
+                    <span><img class="item-icon" src="img/divulgacao.png" alt="Divulgação"></span>
+                    <div>
+                        <span class="item-title">Divulgação</span>
+                        <div class="item-text">Estar presente em nossos comunicações.</div>
+                    </div>
+                </div>
+            </div>
+
+            <form>
+                <div class="row clearfix">
+                    <div class="col_half">
+                        <label>Nome da empresa</label>
+                        <div class="input_field">
+                            <input type="text" name="empresa" placeholder="Ex: Panvel Farmacias" required />
+                        </div>
+                    </div>
+                    <div class="col_half">
+                        <label>Seu nome</label>
+                        <div class="input_field">
+                            <input type="text" name="name" placeholder="João Santos" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col_half">
+                        <label>Telefone</label>
+                        <div class="input_field">
+                            <input type="tel" name="telefone" placeholder="(99) 9 9999 9999" pattern="[0-9]{10}" />
+                        </div>
+                    </div>
+                    <div class="col_half">
+                        <label>E-mail</label>
+                        <div class="input_field">
+                            <input type="email" name="email" placeholder="joao@gmail.com" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col_half">
+                        <label>Ramo de atuação</label>
+                        <div class="input_field">
+                            <input type="text" name="ramo" placeholder="Ex: Laborátorios" required />
+                        </div>
+                    </div>
+                    <div class="col_half">
+                        <label>Estados de atuação</label>
+                        <div class="input_field">
+                            <select type="text" name="estato" required>
+                                <option value="">Selecione o estado</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espirito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div>
+                        <label>Fale mais sobre sua empresa</label>
+                        <div class="textarea_field">
+                            <textarea cols="46" rows="3" name="comentario"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="alinardireita">
+                    <input class="button" type="submit" value="Enviar" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
